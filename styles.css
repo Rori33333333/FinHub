@@ -8,7 +8,7 @@
 /* Base */
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #faf8ff;
+  background: #e7cfdb;
   color: #3d3d5c;
 }
 p {
@@ -44,7 +44,14 @@ ul {
   font-size: 1.5rem;
 }
 
+.logo-image {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
 .navbar .nav-links {
+  margin-left: 1000px;
+
   list-style: none;
   display: flex;
   gap: 20px;
@@ -52,13 +59,13 @@ ul {
 
 .navbar .nav-links a {
   text-decoration: none;
-  color: #3d3d5c;
+  color: #000002;
   font-weight: 500;
 }
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, #f5eaff, #e9f1ff);
+  background: linear-gradient(to right, #fce3d8, lavenderblush);
   text-align: center;
   padding: 120px 0;
 }
@@ -84,17 +91,17 @@ ul {
 }
 
 .btn.primary {
-  background: #a78bfa;
+  background: #da6dbe;
   color: #fff;
 }
 
 .btn.primary:hover {
-  background: #8b73f0;
+  background: #da6dbe;
 }
 
 .btn.secondary {
   background: #e9f1ff;
-  color: #3d3d5c;
+  color: #da6dbe;
 }
 
 /* Sections */
