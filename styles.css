@@ -435,7 +435,104 @@ footer {
     font-size: 1rem;
   }
 
+  /* Mobile Footer Improvements */
+  footer {
+    padding: 40px 15px 15px;
+    margin-top: 60px;
+    border-radius: 15px;
+  }
+
   .footer-content {
     grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+
+  .footer-section {
+    padding: 20px 15px;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .footer-section h4 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .footer-section ul {
+    text-align: center;
+  }
+
+  .footer-section li {
+    margin-bottom: 8px;
+  }
+
+  .footer-bottom {
+    padding-top: 15px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small mobile devices */
+  footer {
+    padding: 30px 10px 10px;
+    margin-top: 40px;
+  }
+
+  .footer-content {
+    gap: 20px;
+  }
+
+  .footer-section {
+    padding: 15px 10px;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+    padding-top: 12px;
+  }
+}
+
+/* Mobile Slider Positioning */
+@media (max-width: 768px) {
+  .slide {
+    align-items: flex-start;
+    padding-top: 15vh;
+    justify-content: center;
+  }
+
+  .slide > div {
+    max-width: 90%;
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    padding-top: 12vh;
+  }
+
+  .slide > div {
+    max-width: 95%;
+    padding: 15px 10px;
+  }
+
+  .slide h2 {
+    font-size: 1.8rem;
+  }
+
+  .slide h3 {
+    font-size: 1.4rem;
+  }
+
+  .slide p {
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
 }
